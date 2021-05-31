@@ -1,0 +1,61 @@
+/*
+Theme Name: CRMTrack Landing Page
+Theme URI: 
+Author: Muhammad Fatihul Ikhsan
+Author URI: mfikhsan892@instagram
+Description: Landing page untuk CRM Track
+Version: 1.0.0
+Text Domain: crmtrack
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 5.6
+License: GNU General Public License, version 3 (GPLv3)
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+
+
+CRMTrack is a WordPress Theme, 
+Copyright (C) 2021, Ikhsan
+CRMTrack is distributed under the terms of the GNU GPL
+
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+http://www.gnu.org/licenses/gpl-3.0.txt
+
+*/
+
+html,
+body {
+  font-family: "Kanit", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Navbar */
+#navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#navbarSupportedContent {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+/* Button Custom */
+#button-custom {
+  background: rgba(0, 95, 217, 0.85);
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 500;
+}
